@@ -2,8 +2,12 @@ fn main(){
     println!("1st function");
     
     new_fn(334);
-    second_function(7,'N');
-    exp()
+    second_function(7,'H');
+    exp();
+    
+    let nigg = rv();
+    println!("The value of nigg is - {}", nigg)
+    
 }
 
 fn new_fn(x : i32){
@@ -20,4 +24,8 @@ fn exp(){
         x + 1
     };
     println!("The value of y is {}", y)
+}
+
+fn rv() -> i32 {
+    9-3
 }
